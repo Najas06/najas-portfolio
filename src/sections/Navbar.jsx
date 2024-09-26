@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { navLinks } from "../constants";
 
 const Navbar = () => {
   const [isOpen, setOpen] = useState(false);
@@ -27,9 +28,16 @@ const Navbar = () => {
           </button>
 
           <nav className="sm:flex hidden">
-      <NavItems/>
+            <NavItems />
           </nav>
         </div>
+      </div>
+      <div
+        className={`nav-sidebar ${isOpen ? "max-h-screen" : "max-h-0"}`}
+      >
+        <nav className="p-5">
+          <NavItems/>
+        </nav>
       </div>
     </header>
   );
@@ -38,8 +46,15 @@ const Navbar = () => {
 export default Navbar;
 
 const NavItems = () => {
-  return(
-    <div></div>
-
-  )
-}
+  return (
+    <ul className="nav-ul">
+      {navLinks.map(({ id, name, href }) => (
+        <li key={id} className="nav-li">
+          <a href={href} className="nav-li_a" onClick={() => {}}>
+            {name}
+          </a>
+        </li>
+      ))}
+    </ul>
+  );
+};
