@@ -21,48 +21,15 @@ export const navLinks = [
     },
   ];
   
-  export const clientReviews = [
-    {
-      id: 1,
-      name: 'Emily Johnson',
-      position: 'Marketing Director at GreenLeaf',
-      img: 'assets/review1.png',
-      review:
-        'Working with Adrian was a fantastic experience. He transformed our outdated website into a modern, user-friendly platform. His attention to detail and commitment to quality are unmatched. Highly recommend him for any web dev projects.',
-    },
-    {
-      id: 2,
-      name: 'Mark Rogers',
-      position: 'Founder of TechGear Shop',
-      img: 'assets/review2.png',
-      review:
-        'Adrian’s expertise in web development is truly impressive. He delivered a robust and scalable solution for our e-commerce site, and our online sales have significantly increased since the launch. He’s a true professional! Fantastic work.',
-    },
-    {
-      id: 3,
-      name: 'John Dohsas',
-      position: 'Project Manager at UrbanTech ',
-      img: 'assets/review3.png',
-      review:
-        'I can’t say enough good things about Adrian. He was able to take our complex project requirements and turn them into a seamless, functional website. His problem-solving abilities are outstanding.',
-    },
-    {
-      id: 4,
-      name: 'Ether Smith',
-      position: 'CEO of BrightStar Enterprises',
-      img: 'assets/review4.png',
-      review:
-        'Adrian was a pleasure to work with. He understood our requirements perfectly and delivered a website that exceeded our expectations. His skills in both frontend backend dev are top-notch.',
-    },
-  ];
+
   
   export const myProjects = [
     {
-      title: 'Podcastr - AI Podcast Platform',
-      desc: 'Podcastr is a revolutionary Software-as-a-Service platform that transforms the way podcasts are created. With advanced AI-powered features like text-to-multiple-voices functionality, it allows creators to generate diverse voiceovers from a single text input.',
+      title: 'Modern Real Estate Website',
+      desc: 'I designed and developed a sleek, modern real estate website aimed at enhancing user experience for potential property buyers and sellers. The platform allows users to search for various types of properties, including apartments, houses, offices, and lands. With a responsive and intuitive design.',
       subdesc:
-        'Built as a unique Software-as-a-Service app with Next.js 14, Tailwind CSS, TypeScript, Framer Motion and Convex, Podcastr is designed for optimal performance and scalability.',
-      href: 'https://www.youtube.com/watch?v=zfAb95tJvZQ',
+        'Built as a unique Software-as-a-Service app with Next.js 14, Tailwind CSS, TypeScript and  Figma.',
+      href: 'https://real-estate-next-js-rho.vercel.app/',
       texture: '/textures/project/project1.mp4',
       logo: '/assets/project-logo1.png',
       logoStyle: {
@@ -74,8 +41,8 @@ export const navLinks = [
       tags: [
         {
           id: 1,
-          name: 'React.js',
-          path: '/assets/react.svg',
+          name: 'Next.js',
+          path: '/assets/nextjs.svg',
         },
         {
           id: 2,
@@ -89,19 +56,19 @@ export const navLinks = [
         },
         {
           id: 4,
-          name: 'Framer Motion',
-          path: '/assets/framer.png',
+          name: 'Figma',
+          path: '/assets/figma.svg',
         },
       ],
     },
     {
-      title: 'LiveDoc - Real-Time Google Docs Clone',
-      desc: 'LiveDoc is a powerful collaborative app that elevates the capabilities of real-time document editing. As an enhanced version of Google Docs, It supports millions of collaborators simultaneously, ensuring that every change is captured instantly and accurately.',
+      title: 'ChefAI - AI Cooking Recipe Generator',
+      desc: 'ChefAI is a cutting-edge platform that revolutionizes the way you cook. Simply enter the name of any dish, and ChefAI generates detailed recipes using data from MealDB.',
       subdesc:
-        'With LiveDoc, users can experience the future of collaboration, where multiple contributors work together in real time without any lag, by using Next.js and Liveblocks newest features.',
-      href: 'https://www.youtube.com/watch?v=y5vE8y_f_OM',
+        'Input the dish name, and ChefAI provides you with detailed recipes,Powered by MealDB: Access a diverse range of recipes from the comprehensive MealDB database,User-Friendly Interface: Enjoy an intuitive and seamless cooking experience.',
+      href: 'https://chef-ai-beta.vercel.app/',
       texture: '/textures/project/project2.mp4',
-      logo: '/assets/project-logo2.png',
+      logo: '/assets/project-logo2.svg',
       logoStyle: {
         backgroundColor: '#13202F',
         border: '0.2px solid #17293E',
@@ -111,34 +78,34 @@ export const navLinks = [
       tags: [
         {
           id: 1,
-          name: 'React.js',
-          path: '/assets/react.svg',
+          name: 'MongoDB',
+          path: '/assets/mongoDB.png',
         },
         {
           id: 2,
-          name: 'TailwindCSS',
-          path: 'assets/tailwindcss.png',
+          name: 'express js',
+          path: 'assets/expressjs.png',
         },
         {
           id: 3,
-          name: 'TypeScript',
-          path: '/assets/typescript.png',
+          name: 'React',
+          path: '/assets/react.svg',
         },
         {
           id: 4,
-          name: 'Framer Motion',
-          path: '/assets/framer.png',
+          name: 'Node.js',
+          path: '/assets/nodejs.png',
         },
       ],
     },
     {
-      title: 'CarePulse - Health Management System',
-      desc: 'An innovative healthcare platform designed to streamline essential medical processes. It simplifies patient registration, appointment scheduling, and medical record management, providing a seamless experience for both healthcare providers and patients.',
+      title: 'Dashboard Conversion - from Figma to Code (HTML, CSS, JS)',
+      desc: 'This project involved converting a sleek dashboard design from Figma into a fully responsive web page using HTML, CSS, and JavaScript. The dashboard features intuitive navigation and clean data visualization components like graphs and progress indicators. It is designed to provide seamless user interaction across both desktop and mobile devices, ensuring an optimized experience for all users.',
       subdesc:
-        'With a focus on efficiency, CarePulse integrantes complex forms and SMS notifications, by using Next.js, Appwrite, Twillio and Sentry that enhance operational workflows.',
-      href: 'https://www.youtube.com/watch?v=lEflo_sc82g',
+        '',
+      href: 'https://strong-lebkuchen-46178c.netlify.app/',
       texture: '/textures/project/project3.mp4',
-      logo: '/assets/project-logo3.png',
+      logo: '/assets/project-logo3.svg',
       logoStyle: {
         backgroundColor: '#60f5a1',
         background:
@@ -160,8 +127,8 @@ export const navLinks = [
         },
         {
           id: 3,
-          name: 'TypeScript',
-          path: '/assets/typescript.png',
+          name: 'javascript',
+          path: '/assets/js.png',
         },
         {
           id: 4,
@@ -171,11 +138,11 @@ export const navLinks = [
       ],
     },
     {
-      title: 'Horizon - Online Banking Platform',
-      desc: 'Horizon is a comprehensive online banking platform that offers users a centralized finance management dashboard. It allows users to connect multiple bank accounts, monitor real-time transactions, and seamlessly transfer money to other users.',
+      title: 'Next.js E-Commerce API Integration UI/UX Landing Page',
+      desc: '𝗡𝗲𝘅𝘁.𝗷𝘀 e-commerce site featuring dynamic product categories like Men, Women, and Shoes. 𝗧𝗵𝗲 𝘀𝗶𝘁𝗲 𝘂𝘀𝗲𝘀 𝗖𝗦𝗥 (𝗖𝗹𝗶𝗲𝗻𝘁-𝗦𝗶𝗱𝗲 𝗥𝗲𝗻𝗱𝗲𝗿𝗶𝗻𝗴) 𝗳𝗼𝗿 𝗮 𝘀𝗺𝗼𝗼𝘁𝗵, 𝗿𝗲𝘀𝗽𝗼𝗻𝘀𝗶𝘃𝗲 𝗲𝘅𝗽𝗲𝗿𝗶𝗲𝗻𝗰𝗲, 𝘄𝗶𝘁𝗵 𝗱𝗮𝘁𝗮 𝘀𝗲𝗮𝗺𝗹𝗲𝘀𝘀𝗹𝘆 𝗽𝘂𝗹𝗹𝗲𝗱 𝗳𝗿𝗼𝗺 𝘁𝗵𝗲 𝗝𝗦𝗢𝗡𝗣𝗹𝗮𝗰𝗲𝗵𝗼𝗹𝗱𝗲𝗿 𝗔𝗣𝗜.To elevate the design, I implemented Shadcn, ensuring a sleek, modern interface that looks great across devices. Here’s a glimpse of the Women’s category page—simple, stylish, and user-friendly.',
       subdesc:
-        'Built with Next.js 14 Appwrite, Dwolla and Plaid, Horizon ensures a smooth and secure banking experience, tailored to meet the needs of modern consumers.',
-      href: 'https://www.youtube.com/watch?v=PuOVqP_cjkE',
+        '',
+      href: 'https://ekartnextjs.vercel.app',
       texture: '/textures/project/project4.mp4',
       logo: '/assets/project-logo4.png',
       logoStyle: {
@@ -187,8 +154,8 @@ export const navLinks = [
       tags: [
         {
           id: 1,
-          name: 'React.js',
-          path: '/assets/react.svg',
+          name: 'Next.js',
+          path: '/assets/nextjs.svg',
         },
         {
           id: 2,
@@ -207,43 +174,7 @@ export const navLinks = [
         },
       ],
     },
-    {
-      title: 'Imaginify - AI Photo Manipulation App',
-      desc: 'Imaginify is a groundbreaking Software-as-a-Service application that empowers users to create stunning photo manipulations using AI technology. With features like AI-driven image editing, a payments system, and a credits-based model.',
-      subdesc:
-        'Built with Next.js 14, Cloudinary AI, Clerk, and Stripe, Imaginify combines cutting-edge technology with a user-centric approach. It can be turned into a side income or even a full-fledged business.',
-      href: 'https://www.youtube.com/watch?v=Ahwoks_dawU',
-      texture: '/textures/project/project5.mp4',
-      logo: '/assets/project-logo5.png',
-      logoStyle: {
-        backgroundColor: '#1C1A43',
-        border: '0.2px solid #252262',
-        boxShadow: '0px 0px 60px 0px #635BFF4D',
-      },
-      spotlight: '/assets/spotlight5.png',
-      tags: [
-        {
-          id: 1,
-          name: 'React.js',
-          path: '/assets/react.svg',
-        },
-        {
-          id: 2,
-          name: 'TailwindCSS',
-          path: 'assets/tailwindcss.png',
-        },
-        {
-          id: 3,
-          name: 'TypeScript',
-          path: '/assets/typescript.png',
-        },
-        {
-          id: 4,
-          name: 'Framer Motion',
-          path: '/assets/framer.png',
-        },
-      ],
-    },
+   
   ];
   
   export const calculateSizes = (isSmall, isMobile, isTablet) => {
@@ -260,29 +191,29 @@ export const navLinks = [
   export const workExperiences = [
     {
       id: 1,
-      name: 'Framer',
-      pos: 'Lead Web Developer',
-      duration: '2022 - Present',
-      title: "Framer serves as my go-to tool for creating interactive prototypes. I use it to bring designs to  life, allowing stakeholders to experience the user flow and interactions before development.",
-      icon: '/assets/framer.svg',
+      name: 'Next.JS',
+      pos: 'Web Developer',
+      duration: '2024',
+      title: "Next.js is a React-based framework that allows me to build dynamic and interactive web applications. I use it to build web applications that provide a seamless user experience.",
+      icon: '/assets/nextjs.svg',
       animation: 'victory',
     },
     {
       id: 2,
-      name: 'Figma',
-      pos: 'Web Developer',
-      duration: '2020 - 2022',
-      title: "Figma is my collaborative design platform of choice. I utilize it to work seamlessly with team members and clients, facilitating real-time feedback and design iterations. Its cloud-based.",
-      icon: '/assets/figma.svg',
+      name: 'React.JS',
+      pos: 'Frontend Developer',
+      duration: '2024',
+      title: "I Completed a Internship as a Frontend Developer. I use React.js to build dynamic and interactive web applications. I use it to build web applications that provide a seamless user experience.",
+      icon: '/assets/react.svg',
       animation: 'clapping',
     },
     {
       id: 3,
-      name: 'Notion',
-      pos: 'Junior Web Developer',
-      duration: '2019 - 2020',
-      title: "Notion helps me keep my projects organized. I use it for project management, task tracking, and as a central hub for documentation, ensuring that everything from design notes to.",
-      icon: '/assets/notion.svg',
+      name: 'MERN Stack',
+      pos: 'MERN Stack Developer',
+      duration: '2023 - 2024',
+      title: "After BA English Graduated I completed a Full Stack Development course. I use MERN Stack to build dynamic and interactive web applications. I use it to build web applications that provide a seamless user experience.",
+      icon: '/assets/mern.png',
       animation: 'salute',
     },
   ];

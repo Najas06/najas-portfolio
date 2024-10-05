@@ -12,7 +12,7 @@ const Navbar = () => {
             href="/"
             className="text-neutral-400 font-bold text-xl hover:text-white transition-colors"
           >
-            Najas Nazar
+            <img src="/assets/Logo.png" alt="logo" className="w-20"/>
           </a>
 
           <button
